@@ -14,9 +14,6 @@ require 'pry'
   #   }
   # }
 
-def test
-end
-
 def remove_strawberry(contacts)
   contacts.each do |person, contact_details|
     if person.include?("Freddy")
